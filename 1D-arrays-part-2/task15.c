@@ -8,12 +8,12 @@ void fill_random_array(int numbers[], int length){
 
     for (int i = 0; i < 500; i++)
     {
-        random_number = rand() % 100;
+        random_number = rand() % 500;
         numbers[i] = random_number;
     }
 }
 
-int min_array(int numbers[], int length){
+int min_array(int numbers[],int length){
     int min = numbers[0];
 
     for (int i = 0; i < 500; i++)
@@ -34,3 +34,4 @@ int main(){
     printf("Eng kichik element: %d\n", min_array(numbers, 500));
     return 0;
 }
+// test modified
