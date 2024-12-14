@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 int main()
 {
@@ -14,5 +14,5 @@ int main()
                 printf("%d,", nums[i]);
         }
 
- return 0;
+    return 0;
 }

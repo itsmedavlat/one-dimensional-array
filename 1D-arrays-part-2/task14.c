@@ -8,12 +8,12 @@ void fill_random_array(int numbers[], int length){
 
     for (int i = 0; i < 500; i++)
     {
-        random_number = rand() % 100;
+        random_number = rand() % 500;
         numbers[i] = random_number;
     }
 }
 
-int max_array(int numbers[], int length){
+int max_array(int numbers[],int length){
     int max = numbers[0];
 
     for (int i = 0; i < 500; i++)
